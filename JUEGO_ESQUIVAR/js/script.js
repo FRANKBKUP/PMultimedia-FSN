@@ -1,6 +1,6 @@
-/*=============================================
-SCRIPT ADICIONAL PARA COMPATIBILIDAD
-=============================================*/
+/*================================================
+COMPATIBILIDAD PARA COMROBAR QUE MI JUEGO FUNCIONA
+==================================================*/
 
 // Nota: La lógica principal está en canvas.js
 // Este archivo está disponible para funciones adicionales
