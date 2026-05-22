@@ -2,11 +2,12 @@ var contenedor = document.querySelector("#contenedor");
 var ampliarLienzo = document.querySelector("#lienzo");
 var btnAmpliar = document.querySelector("#btnAmpliar");
 
-function ampliar(){
 
-	contenedor.style.width="100%";
-	contenedor.style.height="100vh";
-	contenedor.style.margin="0";
+function ampliar() {
+
+	contenedor.style.width = "100%";
+	contenedor.style.height = "100vh";
+	contenedor.style.margin = "0";
 
 	ampliarLienzo.style.width = "100%";
 	ampliarLienzo.style.height = "100vh";
@@ -19,11 +20,11 @@ function ampliar(){
 	btnAmpliar.style.left = "10px";
 	btnAmpliar.style.zIndex = "1";
 
-	btnAmpliar.setAttribute("onClick","reducir()");
+	btnAmpliar.setAttribute("onClick", "reducir()");
 
 }
 
-function reducir(){
+function reducir() {
 
 	contenedor.style.width = "1000px";
 	contenedor.style.height = "500px";
@@ -38,6 +39,7 @@ function reducir(){
 	btnAmpliar.style.left = "0";
 	btnAmpliar.style.zIndex = "0";
 
-	btnAmpliar.setAttribute("onClick","ampliar()");
+	btnAmpliar.setAttribute("onClick", "ampliar()");
 
 }
+
